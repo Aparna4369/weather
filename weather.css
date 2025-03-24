@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    
+}
+.search{
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+
+}
+.enter{
+    width: 300px;
+    border: none;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+.main{
+    background-color: rgb(23, 96, 19);
+    background-image: linear-gradient(rgb(66, 179, 244), rgb(246, 39, 73));
+    height: 100vh;
+    padding: 100px;
+
+}
+#forecast{
+    color: yellow;
+}
+#temperature{
+    font-size: 50px;
+    color: white;
+}
+#place{
+    color: white;
+    margin-top: 50px;
+
+}
+.sun{    
+    color: yellow;
+    font-size: 100px;
+}
